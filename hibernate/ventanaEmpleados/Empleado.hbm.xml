@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="ventanaEmpleados.Empleado" table="table1" >
+		<id	column="Id" name="id" type="int" access="field"/>
+		<property name="nombre" type="string" access="field"/>
+		<property name="apellido" type="string" access="field" />
+		<property name="email" type="string" access="field"/>
+		<property name="departamento" type="string" access="field"/>
+		<property name="salario" type="float" access="field"/>
+		<property name="fechaIni" type="date" access="field"/>
+		<property name="fechaFin" type="date" access="field"/>
+</class>
+</hibernate-mapping>
